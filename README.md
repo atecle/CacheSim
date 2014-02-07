@@ -7,14 +7,14 @@ This was a learning exersise for my comp arch class to get a handle on how cache
 
 I used [pin](http://software.intel.com/sites/landingpage/pintool/docs/58423/Pin/html/) to generate memory access traces. The typical trace file looks something like this...
 
-0x804ae1c: W 0x9cb2874
-0x804ae10: R 0xbf8ef498
-0x804ae16: R 0xbf8ef49c
-0x804ae19: R 0x9cb2880
-0x804ae19: W 0x9cb2880
-0x804ae1c: R 0x9cb2884
-0x804ae1c: W 0x9cb2884
-0x804ae10: R 0xbf8ef498
+0x804ae1c: W 0x9cb2874  
+0x804ae10: R 0xbf8ef498  
+0x804ae16: R 0xbf8ef49c  
+0x804ae19: R 0x9cb2880  
+0x804ae19: W 0x9cb2880  
+0x804ae1c: R 0x9cb2884  
+0x804ae1c: W 0x9cb2884  
+0x804ae10: R 0xbf8ef498  
 
 It's important that the traces be generated on a 32-bit machine because of how I extract the tag, block offset, and set index from the address.
 
