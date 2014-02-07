@@ -3,7 +3,7 @@ CS 344: Computer Architecture
 
 *Simulation of direct mapped cache with FIFO replacement*
 
-This was a learning exersise for my comp arch class to get a handle on how caches work. Despite what the usage says, I only a direct mapped, FIFO, write through cache is supported.
+This was a learning exercise for my comp arch class to get a handle on how caches work. Despite what the usage says, only a direct mapped, FIFO, write through cache is supported.
 
 I used [pin](http://software.intel.com/sites/landingpage/pintool/docs/58423/Pin/html/) to generate memory access traces. The typical trace file looks something like this...
 
